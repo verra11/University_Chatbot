@@ -1,0 +1,52 @@
+intents:
+  - greet
+  - college
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - thanks
+
+entities:
+  - college_name
+
+responses:
+  utter_greet:
+  - text: "Hey! I am Nemesis, a chatbot made for ABV-IIITM. You can ask me anything related to the institute."
+
+  utter_options:
+  - text: "What do you want to know about?"
+    buttons:
+    - title: "College"
+      payload: "ABV-IIITM"
+    - title: "Faculty"
+      payload: "Professors"
+    - title: "Links"
+      payload: "Important links"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_history:
+  - text: "Indian Institute of Information Technology and Management (IIITM) in Gwalior, Madhya Pradesh is an autonomous institute set by Government of India, Ministry of Human Resource Development (MHRD) in 1997.\n
+You can learn more about the college here: \n
+https://www.iiitm.ac.in/index.php/en/about-iiitm/history"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: false
