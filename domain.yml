@@ -1,135 +1,128 @@
+session_config:
+  session_expiration_time: 5
+  carry_over_slots_to_new_session: false
 intents:
-  - greet
-  - college_query
-  - faculty_query
-  - course_query
-  - out_of_scope
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - thanks
-  - fee_structure_query
-  - fee_payment_query
-  - acal_query
-  - hostel_query
-  - placement_query
-  - options
-  - more_options
-
+- greet
+- college_query
+- faculty_query
+- course_query
+- out_of_scope
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- thanks
+- fee_structure_query
+- fee_payment_query
+- acal_query
+- hostel_query
+- placement_query
+- options
+- more_options
 entities:
-  - college_name
-
-actions:
-  - utter_greet
-  - utter_options
-  - utter_cheer_up
-  - utter_did_that_help
-  - utter_happy
-  - utter_goodbye
-  - utter_iamabot
-  - utter_history
-  - utter_faculty
-  - utter_outofscope
-  - utter_course
-  - utter_fee
-  - utter_payfee
-  - utter_acal
-  - utter_more
-  - utter_hostels
-  - utter_placements
-  - utter_moreoptions
-
+- college_name
 responses:
   utter_greet:
-  - text: "Hey! I am Nemesis, a chatbot made for ABV-IIITM. You can ask me anything related to the institute."
-  - text: "Hey there!"
-  - text: "Hello!"
-  - text: "Hello there! I am at your service."
-  - text: "Hello! I'm Nemesis. Here to help you."
-  - text: "Hello there! How can I help you?"
-  - text: "Hey there! I am Nemesis and I am a bot."
-
+  - text: Hey! I am Nemesis, a chatbot made for ABV-IIITM. You can ask me anything
+      related to the institute.
+  - text: Hey there!
+  - text: Hello!
+  - text: Hello there! I am at your service.
+  - text: Hello! I'm Nemesis.
+  - text: Hey there! I am Nemesis and I am a bot.
   utter_options:
   - text: "Here's something I can help you with:"
     buttons:
-    - payload: "The College history"
-      # payload: "ABV-IIITM"
-    - payload: "The Courses of study"
-      # payload: "Important links"
-    - payload: "The Faculty"
-      # payload: "Professors"
-    - payload: "Other Important links"
-
+    - title: The College history
+      payload: /college_query
+    - title: The Courses of study
+      payload: /course_query
+    - title: The Faculty
+      payload: /faculty_query
+    - title: Other Important links
+      payload: /more_options
   utter_moreoptions:
-  - text: "Some important links:"
+  - text: 'Some important links:'
     buttons:
-    - payload: "Hostel Facility"
-    - payload: "Academic Calendar"
-    - payload: "Fee Structure"
-    - payload: "Fee Payment"
-    - payload: "Placement Statistics"
-
+    - title: Hostel Facility
+      payload: /hostel_query
+    - title: Academic Calendar
+      payload: /acal_query
+    - title: Fee Structure
+      payload: /fee_structure_query
+    - title: Fee Payment
+      payload: /fee_payment_query
+    - title: Placement Statistics
+      payload: /placement_query
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
   utter_did_that_help:
-  - text: "Did that help you?"
-
+  - text: Did that help you?
   utter_happy:
-  - text: "Great, carry on!"
-
+  - text: Great, carry on!
   utter_goodbye:
-  - text: "Bye!"
-  - text: "See ya!"
-  - text: "See you later!"
-
+  - text: Bye!
+  - text: See ya!
+  - text: See you later!
   utter_iamabot:
-  - text: "I am Nemesis, a bot powered by Rasa and developed for ABV-IIITM."
-  - text: "I am Nemesis. I am a bot developed for IIITM."
-
+  - text: I am Nemesis, a bot powered by Rasa and developed for ABV-IIITM.
+  - text: I am Nemesis. I am a bot developed for IIITM.
   utter_history:
-  - text: "Atal Bihari Vajpayee Indian Institute of Information Technology and Management (IIITM) in Gwalior, Madhya Pradesh is an autonomous institute set by Government of India, Ministry of Human Resource Development (MHRD) in 1997.\nYou can learn more about the college here:\nhttps://www.iiitm.ac.in/index.php/en/about-iiitm/history"
-
+  - text: "Atal Bihari Vajpayee Indian Institute of Information Technology and Management\
+      \ (IIITM) in Gwalior, Madhya Pradesh is an autonomous institute set by Government\
+      \ of India, Ministry of Human Resource Development (MHRD) in 1997.\nYou can\
+      \ learn more about the college here:\nhttps://www.iiitm.ac.in/index.php/en/about-iiitm/history"
   utter_faculty:
   - text: "You can find the faculty details here:\nhttps://www.iiitm.ac.in/index.php/en/component/splms/?view=teachers"
   - text: "Here's something to help with that:\nhttps://www.iiitm.ac.in/index.php/en/component/splms/?view=teachers"
   - text: "You can find about that here:\nhttps://www.iiitm.ac.in/index.php/en/component/splms/?view=teachers"
-
   utter_course:
   - text: "Here's a link to help with that:\nhttps://www.iiitm.ac.in/index.php/en/academics-final/courses-of-study"
-  - text: "The college offers various courses related to Information Technology. You can find more about that here:\nhttps://www.iiitm.ac.in/index.php/en/academics-final/courses-of-study"
-  - text: "The college offers various courses related to Information Technology. You can find about the courses of study here:\nhttps://www.iiitm.ac.in/index.php/en/academics-final/courses-of-study"
-
+  - text: "The college offers various courses related to Information Technology. You\
+      \ can find more about that here:\nhttps://www.iiitm.ac.in/index.php/en/academics-final/courses-of-study"
+  - text: "The college offers various courses related to Information Technology. You\
+      \ can find about the courses of study here:\nhttps://www.iiitm.ac.in/index.php/en/academics-final/courses-of-study"
   utter_fee:
   - text: "For the Fee structure, follow this link:\nhttps://www.iiitm.ac.in/images/2019/07/Fee-Structure-2019---Revised.pdf"
-
   utter_payfee:
   - text: "Here's the Fee payment link:\nhttps://operations.iiitm.ac.in/iiitmpay/Form/show/Fine_Account_Dues_Payment"
-
   utter_acal:
   - text: "For the Academic Calendar, follow this link:\nhttps://www.iiitm.ac.in/index.php/en/academics-final/academic-calendar-for-even-semester-2019-20"
-
   utter_more:
-  - text: "Tell me if you need anything else."
-  - text: "I'll be here if you need anything else."
-  - text: "Do you need anything else?"
-  - text: "Let me know if you need anything else."
-
+  - text: Tell me if you need anything else.
+  - text: I'll be here if you need anything else.
+  - text: Do you need anything else?
+  - text: Let me know if you need anything else.
   utter_hostels:
-  - text: "The institute provides 3 Boys' Hostels and 1 Girls' Hostel. Find more about them here:\nhttps://www.iiitm.ac.in/index.php/en/about-iiitm/campus-life/students-hostels/68-campus-overview"
-
+  - text: "The institute provides 3 Boys' Hostels and 1 Girls' Hostel. Find more about\
+      \ them here:\nhttps://www.iiitm.ac.in/index.php/en/about-iiitm/campus-life/students-hostels/68-campus-overview"
   utter_placements:
   - text: "Here are the placement statistics:\nhttps://www.iiitm.ac.in/index.php/en/placement/prospective-employer"
-
   utter_outofscope:
-  - text: "I am sorry. I could n't understand that."
-  - text: "I am sorry that I am unable to help with that."
-  - text: "I cannot help with that."
-  - text: "I am unable to understand what you are trying to say."
-  - text: "Sorry! I did n't get that."
-  - text: "I cannot help with that."
-
+  - text: I am sorry. I could n't understand that.
+  - text: I am sorry that I am unable to help with that.
+  - text: I cannot help with that.
+  - text: I am unable to understand what you are trying to say.
+  - text: Sorry! I did n't get that.
+actions:
+- utter_greet
+- utter_options
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_history
+- utter_faculty
+- utter_outofscope
+- utter_course
+- utter_fee
+- utter_payfee
+- utter_acal
+- utter_more
+- utter_hostels
+- utter_placements
+- utter_moreoptions
