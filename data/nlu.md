@@ -173,6 +173,10 @@
 - talk to me
 - who is your favourite robot?
 - can you help me to build a bot
+- what is your favourite movie
+- what's your address
+- i am a movie lover
+- what is a fish
 
 ## intent:options
 - what can you do
