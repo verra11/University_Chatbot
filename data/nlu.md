@@ -14,7 +14,6 @@
 - [ABVIIITM](college_name)
 - [ABV-IIITM](college_name), Gwalior
 - [Atal Bihari Vajpayee Indian Institute of Information Technology and Management](college_name)
-[Atal Bihari Vajpayee Indian Institute of Information Technology and Management](college_name), Gwalior
 - [ABV-Indian Institute of Information Technology and Managemen](college_name)
 - College
 - the college
@@ -27,7 +26,6 @@
 - [IIITM](college_name) gwalior
 - [iiitm](college_name) gwalior
 - [abv-iiitm](college_name) gwalior
-- where is the college located
 - college location
 - location of the college
 - where is the institute located
@@ -252,4 +250,4 @@
 - who are you
 - what are you
 - what is this
-- what are you
+- who is this
