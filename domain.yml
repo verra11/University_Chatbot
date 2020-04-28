@@ -133,6 +133,3 @@ responses:
   - text: "Sorry! I did n't get that."
   - text: "I cannot help with that."
 
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: false
