@@ -1,33 +1,3 @@
-<!-- ## happy path 1
-* greet
-  - utter_greet
-  - utter_options
-* college_query
-  - utter_history
-  - utter_more
-* thanks
-  - utter_happy
-
-## happy path 2
-* greet
-  - utter_greet
-  - utter_options
-* faculty_query
-  - utter_faculty
-  - utter_more
-* thanks
-  - utter_happy
-
-## happy path 3
-* greet
-  - utter_greet
-  - utter_options
-* course_query
-  - utter_course
-  - utter_more
-* thanks
-  - utter_happy -->
-
 ## college query path
 * college_query
   - utter_history
@@ -67,25 +37,6 @@
 * placement_query
   - utter_placements
   - utter_more
-
-<!-- ## out of scope 1
-* greet
-  - utter_greet
-  - utter_options
-* out_of_scope
-  - utter_outofscope
-  - utter_more
-
-## out of scope 2
-* greet
-  - utter_greet
-  - utter_options
-* faculty_query
-  - utter_faculty
-  - utter_more
-* out_of_scope
-  - utter_outofscope
-  - utter_more -->
 
 ## options
 * options
