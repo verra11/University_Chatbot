@@ -55,22 +55,22 @@ responses:
   utter_options:
   - text: "Here's something I can help you with:"
     buttons:
-    - title: "The College history"
+    - payload: "The College history"
       # payload: "ABV-IIITM"
-    - title: "The Courses of study"
+    - payload: "The Courses of study"
       # payload: "Important links"
-    - title: "The Faculty"
+    - payload: "The Faculty"
       # payload: "Professors"
-    - title: "Other Important links"
+    - payload: "Other Important links"
 
   utter_moreoptions:
   - text: "Some important links:"
     buttons:
-    - title: "Hostel Facility"
-    - title: "Academic Calendar"
-    - title: "Fee Structure"
-    - title: "Fee Payment"
-    - title: "Placement Statistics"
+    - payload: "Hostel Facility"
+    - payload: "Academic Calendar"
+    - payload: "Fee Structure"
+    - payload: "Fee Payment"
+    - payload: "Placement Statistics"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
