@@ -22,10 +22,6 @@ intents:
 entities:
   - college_name
 
-slots:
-  college_name:
-    type: text
-
 actions:
   - utter_greet
   - utter_options
