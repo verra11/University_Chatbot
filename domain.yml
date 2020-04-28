@@ -27,11 +27,12 @@ responses:
   utter_greet:
   - text: Hey! I am Nemesis, a chatbot made for ABV-IIITM. You can ask me anything
       related to the institute.
-  - text: Hey there!
-  - text: Hello!
-  - text: Hello there! I am at your service.
-  - text: Hello! I'm Nemesis.
-  - text: Hey there! I am Nemesis and I am a bot.
+  - text: Hey there! I am a chatbot made for IIITM.
+  - text: Hello! I am Nemesis, a chatbot made for ABV-IIITM.
+  - text: Hello there! I am at your service. My name is Nemesis and I can answer queries
+      related to ABV-IIITM.
+  - text: Hello! I'm Nemesis. The IIITM chatbot.
+  - text: Hey there! I am Nemesis and I am a bot. Made especially for IIITM, Gwalior.
   utter_options:
   - text: "Here's something I can help you with:"
     buttons:
