@@ -8,6 +8,9 @@
 - good morning
 - good evening
 - hey there
+- Hey
+- yo
+- Hi
 
 ## intent:college_query
 - [ABVIIITM](college_name), Gwalior
@@ -183,12 +186,14 @@
 - options
 - show me what you can do
 - show me what you got
+- What can you do
 
 ## intent:more_options
 - more options
 - other important links
 - some more options
 - what else can you do
+- More options
 
 ## intent:thanks
 - thanks
@@ -204,6 +209,7 @@
 - goodbye
 - see you around
 - see you later
+- Bye
 
 ## intent:affirm
 - yes
