@@ -21,6 +21,8 @@ intents:
 - placement_query
 - options
 - more_options
+- location_query
+- contact_query
 entities:
 - college_name
 responses:
@@ -36,18 +38,16 @@ responses:
   utter_options:
   - text: "Here's something I can help you with:"
     buttons:
-    - title: The College history
+    - title: College History
       payload: /college_query
-      button_type: vertical
-    - title: The Courses of study
+    - title: Courses
       payload: /course_query
-      button_type: vertical
-    - title: The Faculty
+    - title: Faculty
       payload: /faculty_query
-      button_type: vertical
+    - title: Location
+      payload: /location_query
     - title: Other Important links
       payload: /more_options
-      button_type: vertical
   utter_moreoptions:
   - text: 'Some important links:'
     buttons:
@@ -61,6 +61,8 @@ responses:
       payload: /fee_payment_query
     - title: Placement Statistics
       payload: /placement_query
+    - title: Contact Us
+      payload: /contact_query
   utter_cheer_up:
   - text: 'Here is something to cheer you up:'
     image: https://i.imgur.com/nGF1K8f.jpg
@@ -106,6 +108,10 @@ responses:
       \ them here:\nhttps://www.iiitm.ac.in/index.php/en/about-iiitm/campus-life/students-hostels/68-campus-overview"
   utter_placements:
   - text: "Here are the placement statistics:\nhttps://www.iiitm.ac.in/index.php/en/placement/prospective-employer"
+  utter_location:
+  - text: "ABV-Indian Institute of Information Technology and Management Gwalior,\nMorena Link Road\nGwalior,Madhya Pradesh\n474015, India\nHere is the location:\nhttps://goo.gl/maps/eh63FudRxnRuJXEY7"
+  utter_contact:
+  - text: "ABV-Indian Institute of Information Technology and Management Gwalior,\nMorena Link Road\nGwalior,Madhya Pradesh\n474015, India\nEmail : director@iiitm.ac.in\nPhone Number :0751-2449801\nFAX Number : 0751-2449813\nFor more details, visit:\nhttps://www.iiitm.ac.in/index.php/en/contact-us-footer"
   utter_outofscope:
   - text: I am sorry. I could n't understand that.
   - text: I am sorry that I am unable to help with that.
@@ -131,3 +137,5 @@ actions:
 - utter_hostels
 - utter_placements
 - utter_moreoptions
+- utter_location
+- utter_contact

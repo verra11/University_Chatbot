@@ -3,6 +3,16 @@
   - utter_history
   - utter_more
 
+## location query path
+* location_query
+  - utter_location
+  - utter_more
+
+## contact query
+* contact_query
+  - utter_contact
+  - utter_more
+
 ## faculty query path
 * faculty_query
   - utter_faculty
@@ -62,3 +72,13 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+
+## more help
+  - utter_more
+* affirm
+  - utter_options
+
+## deny help
+  - utter_more
+* deny
+  - utter_goodbye

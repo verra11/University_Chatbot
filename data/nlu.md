@@ -25,6 +25,8 @@
 - university
 - tell me about the institute
 - tell me about the college
+
+## intent:location_query
 - where is the college located
 - [IIITM](college_name)
 - [IIITM](college_name) gwalior
@@ -35,6 +37,23 @@
 - where is the institute located
 - location of the university
 - [IIITM](college_name) location
+- institute location
+- location of the institute
+- location of the university
+- university location
+- where is it located
+- can you give me the location
+- can you give me its location
+- google maps location
+- give me the google maps location
+- where is it
+- address
+- college address
+- give me the college address
+- provide the address
+- institute address
+- address of the college
+- where is it located
 
 ## intent:faculty_query
 - who are the faculty working here
@@ -146,6 +165,24 @@
 - placements
 - placement
 - placement statistics
+
+## intent:contact_query
+- give me the contact details
+- contact
+- contact details
+- can you provide me the contact
+- can you provide me the contact details
+- contacts
+- how can i contact them
+- how do i contact the college
+- how do i contact them
+- phone number
+- email id
+- give me the phone number
+- give me the email id
+- give me the mail
+- give me their number
+- provide the contact details
 
 ## intent:out_of_scope
 - please help with my ice cream it's dripping
