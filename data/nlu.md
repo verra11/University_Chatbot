@@ -38,7 +38,6 @@
 - where is the institute located
 - location of the university
 - [IIITM](college_name) location
-<<<<<<< HEAD
 - institute location
 - location of the institute
 - location of the university
@@ -56,9 +55,7 @@
 - institute address
 - address of the college
 - where is it located
-=======
 - Can i know the college history
->>>>>>> 251a9f9c1de22db08a4c7f4276dadc1493219cf0
 
 ## intent:faculty_query
 - who are the faculty working here
