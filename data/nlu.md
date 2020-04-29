@@ -12,6 +12,7 @@
 - yo
 - Hi
 - Hello
+- Helo
 
 ## intent:college_query
 - [ABVIIITM](college_name), Gwalior
@@ -37,6 +38,7 @@
 - where is the institute located
 - location of the university
 - [IIITM](college_name) location
+<<<<<<< HEAD
 - institute location
 - location of the institute
 - location of the university
@@ -54,6 +56,9 @@
 - institute address
 - address of the college
 - where is it located
+=======
+- Can i know the college history
+>>>>>>> 251a9f9c1de22db08a4c7f4276dadc1493219cf0
 
 ## intent:faculty_query
 - who are the faculty working here
@@ -223,6 +228,8 @@
 - what is a fish
 - Eat
 - Need icecream
+- Pizza
+- I want pizza
 
 ## intent:options
 - what can you do
@@ -287,6 +294,7 @@
 - I am feeling very good
 - I am great
 - I'm good
+- ;)
 
 ## intent:mood_unhappy
 - sad
@@ -310,3 +318,6 @@
 - what is this
 - who is this
 - who r u
+- _challenge
+- whats your name
+- Who are you
