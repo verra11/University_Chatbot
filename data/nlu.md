@@ -11,6 +11,7 @@
 - Hey
 - yo
 - Hi
+- Hello
 
 ## intent:college_query
 - [ABVIIITM](college_name), Gwalior
@@ -77,6 +78,7 @@
 - courses taught
 - course
 - courses
+- i need course
 
 ## intent:fee_structure_query
 - where can i find the fee structure
@@ -93,6 +95,8 @@
 - how much should I pay for admission
 - admission fee
 - how much is the admission fee
+- fees strucutre
+- tell me about fee structure
 
 ## intent:fee_payment_query
 - where can I pay the fee
@@ -180,6 +184,8 @@
 - what's your address
 - i am a movie lover
 - what is a fish
+- Eat
+- Need icecream
 
 ## intent:options
 - what can you do
@@ -187,6 +193,8 @@
 - show me what you can do
 - show me what you got
 - What can you do
+- what can you so
+- what can u do
 
 ## intent:more_options
 - more options
@@ -220,6 +228,8 @@
 - of course
 - that sounds good
 - correct
+- Ok
+- Yes
 
 ## intent:deny
 - no
@@ -229,6 +239,7 @@
 - no way
 - not really
 - nope
+- No
 
 ## intent:mood_great
 - perfect
@@ -261,3 +272,4 @@
 - what are you
 - what is this
 - who is this
+- who r u
