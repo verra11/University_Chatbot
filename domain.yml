@@ -38,12 +38,16 @@ responses:
     buttons:
     - title: The College history
       payload: /college_query
+      button_type: vertical
     - title: The Courses of study
       payload: /course_query
+      button_type: vertical
     - title: The Faculty
       payload: /faculty_query
+      button_type: vertical
     - title: Other Important links
       payload: /more_options
+      button_type: vertical
   utter_moreoptions:
   - text: 'Some important links:'
     buttons:
