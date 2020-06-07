@@ -59,7 +59,6 @@
 ## say hello
 * greet
   - utter_greet
-  - utter_options
 
 ## say goodbye
 * goodbye
@@ -72,6 +71,7 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+  - utter_options
 
 ## more help
   - utter_more
