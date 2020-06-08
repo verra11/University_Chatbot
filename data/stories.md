@@ -1,3 +1,7 @@
+## say hello on click - website
+* hello
+  - utter_greet
+
 ## college query path
 * college_query
   - utter_history
@@ -16,7 +20,6 @@
 ## faculty query path
 * faculty_query
   - utter_faculty
-  - utter_more
 
 ## course query path
 * course_query
@@ -26,22 +29,18 @@
 ## fee structure query
 * fee_structure_query
   - utter_fee
-  - utter_more
 
 ## fee payment query
 * fee_payment_query
   - utter_payfee
-  - utter_more
 
 ## academic calendar query
 * acal_query
   - utter_acal
-  - utter_more
 
 ## hostel query
 * hostel_query
   - utter_hostels
-  - utter_more
 
 ## placement query
 * placement_query

@@ -14,6 +14,11 @@
 - Hello
 - Helo
 
+## intent:hello
+- hey
+- hello
+- hi
+
 ## intent:college_query
 - [ABVIIITM](college_name), Gwalior
 - [ABVIIITM](college_name)

@@ -2,6 +2,7 @@ session_config:
   session_expiration_time: 5
   carry_over_slots_to_new_session: false
 intents:
+- hello
 - greet
 - college_query
 - faculty_query
